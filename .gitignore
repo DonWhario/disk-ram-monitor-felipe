@@ -1,0 +1,9 @@
+# Empaquetados
+*.zip
+
+# Compilaciones de esquemas GSettings
+schemas/gschemas.compiled
+
+# Sistema
+.DS_Store
+*~

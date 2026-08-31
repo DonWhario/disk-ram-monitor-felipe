@@ -1,0 +1,80 @@
+/* Disk & RAM Monitor — estilo de las barras (inspirado en la imagen) */
+
+.drm-title {
+    font-weight: bold;
+}
+
+.drm-box {
+    padding: 6px 4px;
+    spacing: 14px;
+}
+
+.drm-row {
+    spacing: 12px;
+    padding: 4px 2px;
+}
+
+/* Etiqueta con el nombre de la métrica (a la izquierda).
+ * color: inherit => usa el color del tema (legible en claro y oscuro). */
+.drm-name {
+    min-width: 150px;
+    text-align: right;
+    color: inherit;
+    font-size: 12px;
+}
+
+/* Barra: contenedor blanco de ancho fijo = 100% de la capacidad.
+ * Fondo claro siempre, para que el texto oscuro de dentro se lea en
+ * cualquier tema. */
+.drm-bar-bg {
+    height: 26px;
+    border: 1px solid #8fb0e0;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+/* Caja de lo USADO (color azul como en la imagen) */
+.drm-bar-fill {
+    background-color: #b9d0ef;
+}
+
+.drm-bar-fill.drm-warn {
+    background-color: #f2c66d;   /* amarillo cuando el uso es alto */
+}
+
+.drm-bar-fill.drm-crit {
+    background-color: #e79a9a;   /* rojo cuando está casi lleno */
+}
+
+/* Caja de lo LIBRE (transparente: se ve el blanco del fondo de la barra) */
+.drm-bar-rest {
+    background-color: transparent;
+}
+
+/* Texto de "usado" pegado a la izquierda de la zona de color */
+.drm-used-text {
+    color: #1c1c1c;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 8px;
+    text-align: left;
+}
+
+/* Texto de lo "libre" pegado a la derecha de la parte blanca */
+.drm-free-text {
+    color: #444444;
+    font-size: 12px;
+    padding: 0 8px;
+    text-align: right;
+}
+
+/* Total como texto suelto a la derecha, alineado a la derecha.
+ * color: inherit => usa el color del tema (visible en tema oscuro). */
+.drm-total-text {
+    min-width: 70px;
+    padding-left: 8px;
+    color: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+}
