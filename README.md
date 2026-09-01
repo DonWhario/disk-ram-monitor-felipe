@@ -1,6 +1,6 @@
 # Disk & RAM Monitor — GNOME Shell Extension
 
-Extensión para GNOME Shell (45 / 46 / 47 / 48) que agrega un ícono en el panel
+Extensión para GNOME Shell (45 / 46 / 47 / 48 / 49 / 50) que agrega un ícono en el panel
 superior. Al hacer clic despliega un menú con dos barras horizontales tipo
 medidor que muestran, en tiempo real:
 
