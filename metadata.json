@@ -2,7 +2,7 @@
   "uuid": "disk-ram-monitor@felipe",
   "name": "Disk & RAM Monitor",
   "description": "Muestra un menú en el panel superior con barras de uso de disco (/) y memoria RAM: capacidad total y usada, estilo medidor. / Shows a top-panel menu with horizontal bars for disk (/) and RAM usage.",
-  "shell-version": ["45", "46", "47", "48"],
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
   "gettext-domain": "disk-ram-monitor",
   "version": 6,
   "url": ""
